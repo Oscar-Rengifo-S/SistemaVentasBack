@@ -1,0 +1,9 @@
+H:\Proyectos\Prueba\WebApplication1\Entity\bin\Release\netcoreapp3.1\Entity.deps.json
+H:\Proyectos\Prueba\WebApplication1\Entity\bin\Release\netcoreapp3.1\Entity.dll
+H:\Proyectos\Prueba\WebApplication1\Entity\bin\Release\netcoreapp3.1\Entity.pdb
+H:\Proyectos\Prueba\WebApplication1\Entity\obj\Release\netcoreapp3.1\Entity.csprojAssemblyReference.cache
+H:\Proyectos\Prueba\WebApplication1\Entity\obj\Release\netcoreapp3.1\Entity.AssemblyInfoInputs.cache
+H:\Proyectos\Prueba\WebApplication1\Entity\obj\Release\netcoreapp3.1\Entity.AssemblyInfo.cs
+H:\Proyectos\Prueba\WebApplication1\Entity\obj\Release\netcoreapp3.1\Entity.csproj.CoreCompileInputs.cache
+H:\Proyectos\Prueba\WebApplication1\Entity\obj\Release\netcoreapp3.1\Entity.dll
+H:\Proyectos\Prueba\WebApplication1\Entity\obj\Release\netcoreapp3.1\Entity.pdb
