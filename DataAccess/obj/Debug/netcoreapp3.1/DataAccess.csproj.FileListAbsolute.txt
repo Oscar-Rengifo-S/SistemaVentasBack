@@ -1,0 +1,12 @@
+H:\Proyectos\Prueba\WebApplication1\DataAccess\bin\Debug\netcoreapp3.1\DataAccess.deps.json
+H:\Proyectos\Prueba\WebApplication1\DataAccess\bin\Debug\netcoreapp3.1\DataAccess.dll
+H:\Proyectos\Prueba\WebApplication1\DataAccess\bin\Debug\netcoreapp3.1\DataAccess.pdb
+H:\Proyectos\Prueba\WebApplication1\DataAccess\bin\Debug\netcoreapp3.1\Entity.dll
+H:\Proyectos\Prueba\WebApplication1\DataAccess\bin\Debug\netcoreapp3.1\Entity.pdb
+H:\Proyectos\Prueba\WebApplication1\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.csprojAssemblyReference.cache
+H:\Proyectos\Prueba\WebApplication1\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.AssemblyInfoInputs.cache
+H:\Proyectos\Prueba\WebApplication1\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.AssemblyInfo.cs
+H:\Proyectos\Prueba\WebApplication1\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.csproj.CoreCompileInputs.cache
+H:\Proyectos\Prueba\WebApplication1\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.csproj.CopyComplete
+H:\Proyectos\Prueba\WebApplication1\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.dll
+H:\Proyectos\Prueba\WebApplication1\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.pdb
