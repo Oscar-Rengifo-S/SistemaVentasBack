@@ -30,3 +30,4 @@ H:\Proyectos\Prueba\WebApplication1\WebApplication1\obj\Debug\netcoreapp3.1\WebA
 H:\Proyectos\Prueba\WebApplication1\WebApplication1\obj\Debug\netcoreapp3.1\WebApi.dll
 H:\Proyectos\Prueba\WebApplication1\WebApplication1\obj\Debug\netcoreapp3.1\WebApi.pdb
 H:\Proyectos\Prueba\WebApplication1\WebApplication1\obj\Debug\netcoreapp3.1\WebApi.genruntimeconfig.cache
+H:\Proyectos\Prueba\WebApplication1\WebApplication1\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll

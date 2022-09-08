@@ -11,9 +11,9 @@ namespace DataAccess
 {
     public class FacturaDa:Base
     {
-        public long SaveFactura(SaveFacturaFlt entity)
+        public int SaveFactura(SaveFacturaFlt entity)
         {
-            long bresult = 0;
+            int bresult = 0;
 
             try
             {
@@ -37,9 +37,9 @@ namespace DataAccess
                     parametros.Add("@imp_vuelto_venta", entity.imp_vuelto_venta);
                     parametros.Add("@id_usuario", entity.id_usuario);
                     parametros.Add("@correo_cliente", entity.correo_cliente);
-                    parametros.Add("@id_factura", entity.id_factura);
+                    parametros.Add("@id_factura", entity.id_factura, DbType.Int64, ParameterDirection.InputOutput);
 
-                    db.Execute("SP_CLIENTE_FACTURA_INS_01", param: parametros, commandType: CommandType.StoredProcedure);
+                    db.Execute("SP_FACTURA_INS_01", param: parametros, commandType: CommandType.StoredProcedure);
                     db.Close();
                     db.Dispose();
                     entity.id_factura = parametros.Get<long>("@id_factura");
@@ -65,7 +65,7 @@ namespace DataAccess
                     var parametros = new DynamicParameters();
                     parametros.Add("@id_factura", entity.id_factura);
                     parametros.Add("@item_factura", entity.item_factura);
-                    parametros.Add("@conceptop_vta", entity.conceptop_vta);
+                    parametros.Add("@concepto_vta", entity.concepto_vta);
                     parametros.Add("@imp_unit_vta_det", entity.imp_unit_vta_det);
                     parametros.Add("@can_unit_vta_det", entity.can_unit_vta_det);
                     parametros.Add("@imp_costo_vta_det", entity.imp_costo_vta_det);
@@ -73,7 +73,7 @@ namespace DataAccess
                     parametros.Add("@imp_impto_vta_det", entity.imp_impto_vta_det);
                     parametros.Add("@imp_precio_vta_det", entity.imp_precio_vta_det);
 
-                    db.Execute("SP_CLIENTE_FACTURA_INS_01", param: parametros, commandType: CommandType.StoredProcedure);
+                    db.Execute("SP_FACTURA_DET_INS_01", param: parametros, commandType: CommandType.StoredProcedure);
                     db.Close();
                     db.Dispose();
                     bresult = parametros.Get<long>("@id_factura");
@@ -84,6 +84,29 @@ namespace DataAccess
                 bresult = -1;
             }
             return bresult;
+        }
+
+        public List<Factura> GetListFacturas()
+        {
+            List<Factura> ListEntity = new List<Factura>();
+
+            try
+            {
+                using (IDbConnection db = new SqlConnection(base.CadenaConexion))
+                {
+                    db.Open();
+                    var parametros = new DynamicParameters();
+
+                    ListEntity = db.Query<Factura>("SP_FACTURA_SEL_01", param: parametros, commandType: CommandType.StoredProcedure).ToList();
+                    db.Close();
+                    db.Dispose();
+                }
+            }
+            catch (Exception ex)
+            {
+
+            }
+            return ListEntity;
         }
 
 

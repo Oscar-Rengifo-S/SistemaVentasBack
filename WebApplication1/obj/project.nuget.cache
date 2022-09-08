@@ -1,12 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "KmkQfXRnqEMCGIz5wvI9XCAWx0pXzXvjIb1MwPXI7J2I7KshP9cx6BUjJese+dgS18XjXLP0WqbwqPK5iC0HGw==",
+  "dgSpecHash": "B/GBtrGt2bVsTpAZ+vvuz2xAaNDe/xL+M/PQkritHfvO/KJOZYBB6cOAd7qM3tIvrhQTdxfYm7nDsAaE1kjlUQ==",
   "success": true,
   "projectFilePath": "H:\\Proyectos\\Prueba\\WebApplication1\\WebApplication1\\WebApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Oscar Rengifo\\.nuget\\packages\\dapper\\2.0.123\\dapper.2.0.123.nupkg.sha512",
     "C:\\Users\\Oscar Rengifo\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\Oscar Rengifo\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
+    "C:\\Users\\Oscar Rengifo\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
     "C:\\Users\\Oscar Rengifo\\.nuget\\packages\\runtime.native.system.data.sqlclient.sni\\4.7.0\\runtime.native.system.data.sqlclient.sni.4.7.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\runtime.win-x64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-x64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
